@@ -10,7 +10,7 @@ namespace Runner {
         }
         
         void Update() {
-            float y = transform.localPosition.y - 0.05f;
+            float y = transform.localPosition.y - 0.02f;
             if (y < -9.5f) {
                 y = 11.5f;
             }
