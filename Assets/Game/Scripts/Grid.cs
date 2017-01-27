@@ -13,13 +13,13 @@ namespace Runner {
         GameObject cell;
 
         void Awake() {
-            for (int x = 0; x < SIZE_GRID; x++) {
+            /*for (int x = 0; x < SIZE_GRID; x++) {
                 for (int y = 0; y < SIZE_GRID; y++) {
                     GameObject obj = Instantiate(cell);
                     obj.transform.localPosition = new Vector2(x * SIZE_CELL - (SIZE_GRID / 2 * SIZE_CELL), y * SIZE_CELL - (SIZE_GRID / 2 * SIZE_CELL));
                     obj.transform.SetParent(transform, false);
                 }
-            }
+            }*/
             setCameraSize();
         }
         
