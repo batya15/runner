@@ -38,4 +38,8 @@ public class GridState : MonoBehaviour {
     public Point Last() {
         return points.Last().Value;
     }
+
+    public Point Last(int skip) {
+        return points[points.Keys.Reverse().Skip(skip).FirstOrDefault()];
+    }
 }
